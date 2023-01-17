@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width:100%;
+    background-image: url(impppp.png);
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+    
+    color:aliceblue
+    
+
+}
+#dp{
+    height: 200px;
+    width: 200px;
+    background-image: url(86196570.jfif);
+    background-size: contain;
+    border-radius: 50%;
+    box-shadow: 0 2px 30px;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 8%;
+    padding-right: 20%;
+}
+.logo{
+    color: aqua;
+    font-size: 50px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+    
+nav ul li{
+
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+nav ul li a:hover{
+    color: rgb(83, 244, 255);
+    
+   transform: .5s;
+    
+}
+
+
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+   
+
+}
+h1{
+    color: rgb(26, 238, 253);
+    margin: 20px 0px 20px;
+    font-size: 65px;
+        
+}
+h3 ,h4{
+    color: rgb(212, 212, 235);
+    font-size: 30px;
+    
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 15px 16px;
+    border: 2px solid rgb(25, 222, 236);
+    border-radius: 10px;
+    outline: none;
+    background-color:none;
+    box-shadow: 0px 0px 5px yellow;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline:none ;
+    border: none;
+    margin-top: 5px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: rgb(7, 85, 173);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    box-shadow: 0px 0px 5px rgb(0, 255, 21);
+
+}
+
+
+
+
+    
